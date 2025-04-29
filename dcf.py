@@ -118,7 +118,7 @@ if submit:
             years = [col.year for col in fcf_raw.index]
             base_value = np.mean(fcf_raw.values)
             forecast_years = [years[-1] + i for i in range(1, 6)]
-            growth_rate = 0.165
+            growth_rate = 0.17
             fcf_forecast = [base_value * (1 + growth_rate) ** i for i in range(1, 6)]
             terminal_value = fcf_forecast[-1] * 1.03
         else:
