@@ -11,8 +11,7 @@ st.set_page_config(page_title="DCF Valuation Analysis — Finance Modeling", lay
 # --- Custom CSS ---
 st.markdown("""
     <style>
-    #MainMenu {visibility: hidden;}
-    header {visibility: hidden;}
+
     footer {visibility: hidden;}
     
     html, body, [class*="css"] {
